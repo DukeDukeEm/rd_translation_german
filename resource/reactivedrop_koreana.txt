@@ -8945,6 +8945,8 @@
 "rd_collection_inventory_crafting_materials"		"재료"
 "[english]rd_collection_inventory_other"		"Items"
 "rd_collection_inventory_other"		"아이템"
+		"[english]rd_collection_inventory_crafting"		"Blueprints"
+		"rd_collection_inventory_crafting"		"Blueprints"
 "[english]rd_collection_inventory_error_generic"		"Inventory currently unavailable"
 "rd_collection_inventory_error_generic"		"현재 인벤토리를 사용할 수 없습니다."
 // k_EResultPending
@@ -8987,9 +8989,9 @@
 "rd_inventory_verb_style"		"스타일 변경: %s1"
 "[english]rd_inventory_verb_style_current"		"Current Style: %s1"
 "rd_inventory_verb_style_current"		"현재 스타일: %s1"
-		// option is always disabled
-		"[english]rd_inventory_verb_style_locked"		"Change Style: %s1 (Locked)"
-		"rd_inventory_verb_style_locked"		"Change Style: %s1 (Locked)"
+// option is always disabled
+"[english]rd_inventory_verb_style_locked"		"Change Style: %s1 (Locked)"
+"rd_inventory_verb_style_locked"		"스타일 변경: %s1 (잠금)"
 // checkbox: force "Assault Rifle" to still appear even if "Strange Assault Rifle" is in the list.
 "[english]rd_inventory_show_basic"		"Show all basic items"
 "rd_inventory_show_basic"		"모든 기본 아이템 보기"
@@ -9003,11 +9005,11 @@
 // 3 = k_EResultNoConnection
 "[english]rd_inventory_item_action_failed_3_desc"		"The requested inventory item action failed because the connection to Steam was lost."
 "rd_inventory_item_action_failed_3_desc"		"Steam 연결 실패로 인해 보관함 항목에 요청한 작업이 완료되지 않았습니다."
-		// item name is shown as the title of this confirmation screen
-		"[english]rd_inventory_delete_confirm_desc"		"Are you sure you want to permanently destroy this item? It cannot be recovered."
-		"rd_inventory_delete_confirm_desc"		"Are you sure you want to permanently destroy this item? It cannot be recovered."
-		"[english]rd_inventory_delete_stack_confirm_desc"		"Are you sure you want to permanently destroy these %s1 items? They cannot be recovered."
-		"rd_inventory_delete_stack_confirm_desc"		"Are you sure you want to permanently destroy these %s1 items? They cannot be recovered."
+// item name is shown as the title of this confirmation screen
+"[english]rd_inventory_delete_confirm_desc"		"Are you sure you want to permanently destroy this item? It cannot be recovered."
+"rd_inventory_delete_confirm_desc"		"이 아이템을 영구적으로 삭제하시겠습니까? 복구할 수 없습니다."
+"[english]rd_inventory_delete_stack_confirm_desc"		"Are you sure you want to permanently destroy these %s1 items? They cannot be recovered."
+"rd_inventory_delete_stack_confirm_desc"		"%s1 를(을) 영구적으로 삭제하시겠습니까? 복구할 수 없습니다."
 "[english]rd_loadout_new"		"Create Loadout"
 "rd_loadout_new"		"로드아웃 생성"
 "[english]rd_loadout_save"		"Copy From Current"
@@ -10348,16 +10350,16 @@
 
 // %s1 is the player name. %s2 is something like Jacob's Rest Veteran (it will be a different color than the rest of the text).
 "[english]rd_player_found_promo_item"		"%s1 has been awarded %s2."
-"rd_player_found_promo_item"		"%s1 해병이 %s2 을(를) 획득하였습니다."
+"rd_player_found_promo_item"		"%s1 해병이 %s2 을(를) 획득"
 // %s1 is the player name. %s2 is something like Scrap Metal (it will be a different color than the rest of the text).
 "[english]rd_player_found_crafting_material"		"%s1 has found %s2."
-"rd_player_found_crafting_material"		"%s1 해병이 %s2 소재를 찾았습니다."
+"rd_player_found_crafting_material"		"%s1 해병이 %s2 소재를 획득"
 // %s1 is the player name. %s2 is something like Scrap Metal (it will be a different color than the rest of the text). %s3 is a number (might be 1).
 "[english]rd_player_found_crafting_materials"		"%s1 has found %s3× %s2."
-"rd_player_found_crafting_materials"		"%s1 해병이  %s2 %s3개를 찾았습니다."
+"rd_player_found_crafting_materials"		"%s1 해병이  %s2 %s3개를 획득"
 // %s1 is the player name. %s2 is something like Scrap Metal (it will be a different color than the rest of the text). %s3 is a number (might be 1). Shown after the above message, with a different player name but the same item name.
 "[english]rd_player_found_crafting_materials_assist"		"%s1 also found %s3× %s2."
-"rd_player_found_crafting_materials_assist"		"%s1 해병이 %s2 %s3개를 더 찾았습니다."
+"rd_player_found_crafting_materials_assist"		"%s1 해병이 %s2 %s3개를 추가 획득"
 // Only shown to the player who tried to pick up the item. %s1 is the name of the crafting material. %s2 is a number like 37. %s3 is a non-translated string like k_EResultIOFailure.
 "[english]rd_crafting_pickup_error"		"Encountered a problem while trying to pick up '%s1'. The material has moved to somewhere else. (Error %s2: %s3)"
 "rd_crafting_pickup_error"		"'%s1' 소재를 획득하는 중 문제가 발생하였습니다. 소재가 다른 장소로 이동하였습니다. (오류 %s2: %s3)"
@@ -10476,5 +10478,36 @@
 "rd_crafting_material_rarity_salvaged"		"회수"
 "[english]rd_crafting_material_rarity_refined"		"Refined"
 "rd_crafting_material_rarity_refined"		"정제"
+
+		"[english]rd_crafting_select_recipe"		"Select a blueprint to use"
+		"rd_crafting_select_recipe"		"Select a blueprint to use"
+		"[english]rd_crafting_submit_missing_ingredients"		"You do not have the items required to make this blueprint"
+		"rd_crafting_submit_missing_ingredients"		"You do not have the items required to make this blueprint"
+		"[english]rd_crafting_submit_unselected_ingredients"		"Select items above to fill the blueprint"
+		"rd_crafting_submit_unselected_ingredients"		"Select items above to fill the blueprint"
+		"[english]rd_crafting_submit_ready"		"Craft!"
+		"rd_crafting_submit_ready"		"Craft!"
+		"[english]rd_crafting_submit_in_progress"		"Crafting..."
+		"rd_crafting_submit_in_progress"		"Crafting..."
+		"[english]rd_crafting_required_items"		"Items:"
+		"rd_crafting_required_items"		"Items:"
+		"[english]rd_crafting_output_items"		"This blueprint will create:"
+		"rd_crafting_output_items"		"This blueprint will create:"
+		"[english]rd_crafting_recipe_hoiaf_create_stack_participant"		"Stack HoIAF Participant medals"
+		"rd_crafting_recipe_hoiaf_create_stack_participant"		"Stack HoIAF Participant medals"
+		"[english]rd_crafting_recipe_hoiaf_add_to_stack_participant"		"Add HoIAF Participant medal to stack"
+		"rd_crafting_recipe_hoiaf_add_to_stack_participant"		"Add HoIAF Participant medal to stack"
+		"[english]rd_crafting_recipe_hoiaf_create_stack_elite"		"Stack HoIAF Elite medals"
+		"rd_crafting_recipe_hoiaf_create_stack_elite"		"Stack HoIAF Elite medals"
+		"[english]rd_crafting_recipe_hoiaf_add_to_stack_elite"		"Add HoIAF Elite medal to stack"
+		"rd_crafting_recipe_hoiaf_add_to_stack_elite"		"Add HoIAF Elite medal to stack"
+		"[english]rd_crafting_recipe_hoiaf_create_stack_top20"		"Stack HoIAF Top 20 medals"
+		"rd_crafting_recipe_hoiaf_create_stack_top20"		"Stack HoIAF Top 20 medals"
+		"[english]rd_crafting_recipe_hoiaf_add_to_stack_top20"		"Add HoIAF Top 20 medal to stack"
+		"rd_crafting_recipe_hoiaf_add_to_stack_top20"		"Add HoIAF Top 20 medal to stack"
+		"[english]rd_crafting_recipe_hoiaf_stack_flavor"		"The boffins down at IAF headquarters say we can't make these medals stack on top of each other because they have unique numbers and statistics on them. Something about \"data storage formats\". Bunch of nonsense as far as I'm concerned. Anyway, we found a solution for that particular problem. Hit the numbers with a hammer until you can't read them anymore! That'll show those scientists."
+		"rd_crafting_recipe_hoiaf_stack_flavor"		"The boffins down at IAF headquarters say we can't make these medals stack on top of each other because they have unique numbers and statistics on them. Something about \"data storage formats\". Bunch of nonsense as far as I'm concerned. Anyway, we found a solution for that particular problem. Hit the numbers with a hammer until you can't read them anymore! That'll show those scientists."
+		"[english]rd_crafting_recipe_hoiaf_stack_warning"		"This process will permanently remove the season number, score, and other statistics from the chosen medal. Your stats will remain visible on the seasonal leaderboards."
+		"rd_crafting_recipe_hoiaf_stack_warning"		"This process will permanently remove the season number, score, and other statistics from the chosen medal. Your stats will remain visible on the seasonal leaderboards."
 }
 }
